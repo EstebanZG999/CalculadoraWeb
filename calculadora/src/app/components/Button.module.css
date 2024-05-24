@@ -1,0 +1,40 @@
+.button {
+  width: 25%;
+  background: #425062;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonL {
+  color: #AEB3BA;
+  background: #404D5E;
+}
+
+.buttonC {
+  color: #D95D4E;
+  background: #404D5E;
+}
+
+.button:hover, .button.active {
+  background: #E0B612;
+  transform: rotate(5deg);
+}
+
+.buttonC:hover,
+.buttonL:hover,
+.button.active {
+  background: #E0B612;
+  color: #fff;
+}
+
+.blink-me {
+  color: #E0B612;
+}

@@ -1,0 +1,22 @@
+.calcScreen {
+    background: #3A4655;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+  }
+  
+  .calcOperation {
+    text-align: right;
+    color: #727B86;
+    font-size: 21px;
+    padding-bottom: 10px;
+    border-bottom: dotted 1px;
+  }
+  
+  .calcTyped {
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: right;
+    color: #fff;
+  }
+  
